@@ -1,0 +1,1844 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{7adfced5-69a6-3b73-33e4-2425d9c2bb57}</ProjectGuid>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\Bin\Debug\Assembly-CSharp\</OutputPath>
+    <DefineConstants>UNITY_2021_3_22;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169,0649</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\Plane\MovementController.cs" />
+     <Compile Include="Assets\Scripts\Likes\LikeController.cs" />
+     <Compile Include="Assets\Imphenzia\GradientSky\Scripts\GradientSkyObject.cs" />
+     <Compile Include="Assets\Core\Preloader\Scripts\HorizontalLoading.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackScale.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\GUI\MMSelectionBase.cs" />
+     <Compile Include="Assets\Scripts\UI\SettingsLerpRun.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacks\Shakers\MMTimeManager.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Automation\MMOpenURL.cs" />
+     <Compile Include="Assets\Prototype\AudioCore\Scripts\LanguageAudio.cs" />
+     <Compile Include="Assets\PlayerPrefsEditor\SimpleEncryption.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\polyperfect\Common\Wander Script\IdleState.cs" />
+     <Compile Include="Assets\PlayerPrefsEditor\PlayerPrefsUtility.cs" />
+     <Compile Include="Assets\Bazier\Data\Curve4.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackPosition.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\GUI\MMProgressBar.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\ObjectPool\MMMultipleObjectPooler.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\AI\AIBrain.cs" />
+     <Compile Include="Assets\Scripts\CustomGravity.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\MMExtensions\MMGameObjectExtensions.cs" />
+     <Compile Include="Assets\Bazier\BazierCurveQuadraticController.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\ObjectPool\MMObjectPooler.cs" />
+     <Compile Include="Assets\Scripts\MultiplierController.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\ObjectBounds\MMObjectBounds.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackLight.cs" />
+     <Compile Include="Assets\Scripts\PlaneController.cs" />
+     <Compile Include="Assets\Prototype\AudioCore\Scripts\AudioController.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_LightIntensityFade.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Animation\MMAnimationModifier.cs" />
+     <Compile Include="Assets\Core\RateUs\Scripts\RateUsLink.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Automation\MMFollowTarget.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\GUI\MMHealthBar.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Automation\MMStayInPlace.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\MMFeedbackFloatController.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Automation\MMPreventPassingThrough.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackSetActive.cs" />
+     <Compile Include="Assets\FarlandSkies\Demo\Scripts\Player\FPSWalkerEnhanced.cs" />
+     <Compile Include="Assets\Core\RateUs\Scripts\RateUsGenerateLink.cs" />
+     <Compile Include="Assets\Scripts\Plane\MaterialController.cs" />
+     <Compile Include="Assets\Scripts\Plane\HullController.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Camera\MMOrbitalCamera.cs" />
+     <Compile Include="Assets\Prototype\AudioCore\Scripts\StreamGroupManagement.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Animation\MMRagdoller.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\Demos\Scripts\DemoBall.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackAnimation.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\MMHelpers\MMLayers.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Automation\MMTriggerAndCollision.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackWiggle.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackFlash.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Particles\MMAutoDestroyParticleSystem.cs" />
+     <Compile Include="Assets\Bazier\Base\BazierCurveCubic.cs" />
+     <Compile Include="Assets\Prototype\VibrationCore\Scripts\VibrationManager.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Achievements\Scripts\MMAchievementDisplayer.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\PeopleController.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\AI\AITransition.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Particles\MMDelayParticles.cs" />
+     <Compile Include="Assets\TrashElemet.cs" />
+     <Compile Include="Assets\Scripts\Screenshot\screenshot.cs" />
+     <Compile Include="Assets\Core\Screenshot\ScreenshotTaker.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Audio\AudioAnalyzer\MMAudioAnalyzer.cs" />
+     <Compile Include="Assets\Bazier\Base\BazierCurves.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\MMControls\MMSwipeZone.cs" />
+     <Compile Include="Assets\Hovl Studio\AAA Projectiles Vol 1\Scripts\ProjectileMover.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\AI\AIAction.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\ObjectPool\MMPoolableObject.cs" />
+     <Compile Include="Assets\Scripts\Obstacles\ObstacleController.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Achievements\Scripts\MMAchievementEvent.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\FPS\MMFPSCounter.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Achievements\Scripts\MMAchievementDisplayItem.cs" />
+     <Compile Include="Assets\Scripts\Camera\CameraMovement.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\polyperfect\Common\Common_KillSwitch.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Automation\MMPreventPassingThrough2D.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacks\Shakers\MMWiggle.cs" />
+     <Compile Include="Assets\FarlandSkies\Demo\Scripts\Skybox\SkyboxRotator.cs" />
+     <Compile Include="Assets\Scripts\Platform.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\VFX\PanningTexture.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Scripts\IK\HumanBoneOffset.cs" />
+     <Compile Include="Assets\Scripts\ClownController.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Attributes\VectorAttribute.cs" />
+     <Compile Include="Assets\Core\Preloader\Scripts\CircleLoading.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Materials\Simple Water\SimpleWater.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Automation\PropertyController\ShaderController.cs" />
+     <Compile Include="Assets\Scripts\UI\TapToPlay.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Achievements\Scripts\MMAchievement.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_AutoRotate.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacksForThirdParty\NiceVibrations\Feedbacks\MMFeedbackHaptics.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\MMHelpers\MMImage.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Scripts\Wander Script\People_AudioManager.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Camera\MMGhostCamera.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Scripts\CharacterCustomization.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Scripts\CharacterGenerator\CharacterGenerator.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Scripts\AtlasGenerator\AtlasGenerator.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\MMControls\MMTouchButton.cs" />
+     <Compile Include="Assets\Scripts\WorldController.cs" />
+     <Compile Include="Assets\Hovl Studio\AAA Projectiles Vol 1\Scripts\ParticleCollisionInstance.cs" />
+     <Compile Include="Assets\Scripts\GameController.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Scripts\CharacterCustomizationSetup.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Automation\PathMovement\MMPath.cs" />
+     <Compile Include="Assets\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Scripts\Wander Script\People_WanderScript.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Automation\PathMovement\MMPathMovement.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Singletons\PersistentHumbleSingleton.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\polyperfect\Common\Wander Script\MovementState.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\SceneLoading\LoadingSceneManager.cs" />
+     <Compile Include="Assets\Bazier\BazierCurvesPool.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Attributes\DropdownAttribute.cs" />
+     <Compile Include="Assets\Scripts\TestPivot.cs" />
+     <Compile Include="Assets\Scripts\Plane\PartController.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Automation\PropertyController\FloatController.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\MMExtensions\MMScrollRectExtensions.cs" />
+     <Compile Include="Assets\Scripts\DropElements.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Automation\MMPreventPassingThrough3D.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Automation\MMBlink.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\GUI\MMCursorVisible.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\ReorderableList\ReorderableArray.cs" />
+     <Compile Include="Assets\FXIFIED\common\Scripts\Quit.cs" />
+     <Compile Include="Assets\Bazier\Data\Curve.cs" />
+     <Compile Include="Assets\Core\SceneLoaderCore\Scripts\GUI\FadeContentEnabler.cs" />
+     <Compile Include="Assets\Prototype\VibrationCore\Example\Scripts\SwitchVibration.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\polyperfect\Common\RandomCharacterPlacer.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Scripts\LayoutGameobjectInGrid.cs" />
+     <Compile Include="Assets\Scripts\Obstacles\ObstaclesSpawn.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Automation\BezierLineRenderer\MMBezierLineRenderer.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Attributes\HiddenPropertiesAttribute.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Automation\PropertyController\TransformController.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\MMExtensions\MMListExtensions.cs" />
+     <Compile Include="Assets\Scripts\TrashCountUI.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Singletons\Singleton.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Achievements\Scripts\MMAchievementList.cs" />
+     <Compile Include="Assets\Scripts\UI\UISliderController.cs" />
+     <Compile Include="Assets\Scripts\Helpers\TweenHelper.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\polyperfect\Common\Wander Script\Common_WanderScript.cs" />
+     <Compile Include="Assets\Core\Settings\Scripts\Settings.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Animation\MMOffsetAnimation.cs" />
+     <Compile Include="Assets\Thirdparty\CrystalFramework\Utility\Demos\SafeAreaDemo.cs" />
+     <Compile Include="Assets\Bazier\Base\BazierCurveQuadratic.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\MMControls\MMTouchDynamicJoystick.cs" />
+     <Compile Include="Assets\Core\RateUs\Scripts\Consts.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Automation\MMSceneRestarter.cs" />
+     <Compile Include="Assets\Scripts\Trash.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Achievements\Scripts\MMAchievementManager.cs" />
+     <Compile Include="Assets\Scripts\Fly\FlameController.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\NiceVibrations\Common\Scripts\MMVibrationManager.cs" />
+     <Compile Include="Assets\Scripts\ZoneController.cs" />
+     <Compile Include="Assets\Scripts\Timer.cs" />
+     <Compile Include="Assets\Scripts\UI\UIScoreController.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\polyperfect\Common\Common_AnimationControl.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Curves\MMAnimationCurveGenerator.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\MMHelpers\MMColors.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Particles\MMChangeFogColor.cs" />
+     <Compile Include="Assets\Scripts\Plane\PlayerController.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Curves\Demo\Plotter\MMPlotterGenerator.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\SceneLoading\MMLoadScene.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackParticlesInstantiation.cs" />
+     <Compile Include="Assets\Scripts\FlagController.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackFlicker.cs" />
+     <Compile Include="Assets\Prototype\VibrationCore\Scripts\VibrationSettings.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\polyperfect\Common\Wander Script\Common_SurfaceRotation.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Attributes\HiddenAttribute.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Automation\Gyroscope\MMGyroscope.cs" />
+     <Compile Include="Assets\Prototype\AudioCore\Scripts\AudioCoreInit.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Attributes\InspectorButtonAttribute.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacks\Shakers\MMCameraShaker.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Singletons\PersistentSingleton.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Vision\MMConeOfVision2D.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RandomDirectionTranslate.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\GUI\MMGetFocusOnEnable.cs" />
+     <Compile Include="Assets\Scripts\UI\TestSettings.cs" />
+     <Compile Include="Assets\FarlandSkies\Demo\Scripts\Player\SmoothMouseLook.cs" />
+     <Compile Include="Assets\Scripts\Settings\PlaneSettings\PlaneSettings.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\polyperfect\Common\Wander Script\Common_AudioManager.cs" />
+     <Compile Include="Assets\Scripts\Zone.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\SaveLoad\SaveLoadManager.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\MMHelpers\MMMaths.cs" />
+     <Compile Include="Assets\Prototype\AudioCore\Scripts\AudioSettings.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Scripts\DemoScripts\UIControllerDEMO.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\MMFeedbackFade.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackRotation.cs" />
+     <Compile Include="Assets\Core\SceneLoaderCore\Scripts\GUI\GoToSceneButton.cs" />
+     <Compile Include="Assets\Others\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacks\Core\MMFeedbackTiming.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Tilemaps\MMTilemapBoolean.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacks\Core\MMFeedbacks.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackSound.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Automation\MMCooldown.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\GUI\MMFaderRound.cs" />
+     <Compile Include="Assets\Scripts\UI\SliderController.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\MMControls\MMTouchJoystick.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackFreezeFrame.cs" />
+     <Compile Include="Assets\Core\SceneLoaderCore\Scripts\GUI\ButtonClickHandler.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\AI\AIDecision.cs" />
+     <Compile Include="Assets\Scripts\SkyBoxController.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\MMExtensions\MMRendererExtensions.cs" />
+     <Compile Include="Assets\Prototype\AudioCore\Example\Scripts\SwitchEnableStrems.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Automation\MMSquashAndStretch.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\ObjectPool\MMSimpleObjectPooler.cs" />
+     <Compile Include="Assets\Scripts\Plane\FlyAnimation.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\GUI\MMRaycastTarget.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Automation\MMConditionalActivation.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackEnable.cs" />
+     <Compile Include="Assets\Scripts\Settings\Base\ScriptableObjectBase.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Curves\Demo\Plotter\MMPlotter.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Attributes\ConditionAttribute.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\polyperfect\Common\Common_AnimSpeed.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RandomDir.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacks\Core\MMFeedbacksHelpers.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\RigidbodyInterface\MMRigidbodyInterface.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\MMHelpers\MMShufflebag.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\GUI\MMProgressBarDemoAuto.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Automation\MMAim.cs" />
+     <Compile Include="Assets\Scripts\FX\PopUpFX.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\MMExtensions\MMLayermaskExtensions.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Particles\MMTrailRendererSortingLayer.cs" />
+     <Compile Include="Assets\Scripts\Emoji\Emoji.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\MMHelpers\MMTime.cs" />
+     <Compile Include="Assets\Core\SceneLoaderCore\Scripts\Helpers\SceneLoader.cs" />
+     <Compile Include="Assets\Scripts\Slingshot\SlingshotController.cs" />
+     <Compile Include="Assets\FXIFIED\common\Scripts\PowerUp.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\MMHelpers\MMConsole.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Scripts\RootMotion.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Automation\MMAutoRotate.cs" />
+     <Compile Include="Assets\Scripts\Helpers\SafeArea.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Camera\MMCameraAspectRatio.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\ObjectPool\MMObjectPool.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\polyperfect\Common\Wander Script\AIStats.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\StateMachine\MMStateMachine.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\MMHelpers\MMHelpers.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\MMExtensions\MMBoundsExtensions.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_Translate.cs" />
+     <Compile Include="Assets\Core\Preloader\Scripts\Panel.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\ReorderableList\Attributes\ReorderableAttribute.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Scripts\Character Viewer\Polyperfect_CameraController.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Scripts\Character Viewer\CharacterManager.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Automation\MMTimedDestruction.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\MMExtensions\MMVector3Extensions.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\MMControls\MMControlsTestInputManager.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Camera\MMBillboard.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\GUI\MMRadialProgressBar.cs" />
+     <Compile Include="Assets\Bazier\BazierCurveCubicController.cs" />
+     <Compile Include="Assets\Core\SceneLoaderCore\Scripts\GUI\RectTransformUtils.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\polyperfect\Common\Wander Script\Common_WanderManager.cs" />
+     <Compile Include="Assets\Imphenzia\GradientSky\Scripts\Common\GradientSkyCommon.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Particles\MMVisibleParticle.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Automation\PropertyController\LightController.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\GUI\MMFader.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\MMExtensions\MMAnimatorExtensions.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Scripts\Wander Script\People_WanderManager.cs" />
+     <Compile Include="Assets\Core\SceneLoaderCore\Scripts\Fade\UIFader.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Icons\MMSceneViewIcon.cs" />
+     <Compile Include="Assets\Scripts\BestDistance.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Events\MMEventManager.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\NiceVibrations\Demo\Scripts\NiceVibrationsDemoManager.cs" />
+     <Compile Include="Assets\Scripts\UI\UIPregress.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\MMHelpers\MMInput.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\MMFeedbackShaderController.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\MMHelpers\MMDebug.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Tilemaps\MMTilemapShadow.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackCameraZoom.cs" />
+     <Compile Include="Assets\Scripts\Plane\PlayerMovement.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Attributes\ReadOnlyAttribute.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackEvents.cs" />
+     <Compile Include="Assets\Core\Debugger\Scripts\Debugger.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Automation\MMAutoOrderInLayer.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackTimescaleModifier.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Scripts\Wander Script\People_SurfaceRotation.cs" />
+     <Compile Include="Assets\Scripts\Slingshot\DragObject.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Vision\MMConeOfVision.cs" />
+     <Compile Include="Assets\Scripts\UI\UIRewardController.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\polyperfect\Common\Common_RandomInt.cs" />
+     <Compile Include="Assets\Prototype\AudioCore\Example\Scripts\SetVolumeStreams.cs" />
+     <Compile Include="Assets\Scripts\UI\CoinsController.cs" />
+     <Compile Include="Assets\Hovl Studio\AAA Projectiles Vol 1\Demo scenes\DemoShooting.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Scripts\MakeCharacters.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacks\Core\MMFeedback.cs" />
+     <Compile Include="Assets\Game\SelectLevel.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\FPS\MMFPSUnlock.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\MMExtensions\MMFloatExtensions.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacks\Core\ObjectPool\MMMiniPoolableObject.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Scripts\CombinedCharacter.cs" />
+     <Compile Include="Assets\Core\SceneLoaderCore\Scripts\Logo\LogoScript.cs" />
+     <Compile Include="Assets\Scripts\Helpers\Utils.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Attributes\EnumConditionAttribute.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_New.cs" />
+     <Compile Include="Assets\Core\Preloader\Scripts\Loading.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\MMHelpers\MMMovement.cs" />
+     <Compile Include="Assets\Scripts\RoadSpawner.cs" />
+     <Compile Include="Assets\Imphenzia\GradientSky\Scripts\GradientSkyCamera.cs" />
+     <Compile Include="Assets\Scripts\TrashPartController.cs" />
+     <Compile Include="Assets\Hovl Studio\AAA Projectiles Vol 1\Scripts\AutoDestroyPS.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Attributes\ColorAttribute.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackInstantiateObject.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Achievements\Scripts\MMAchievementRules.cs" />
+     <Compile Include="Assets\Scripts\Settings\Enums.cs" />
+     <Compile Include="Assets\Prototype\VibrationCore\Scripts\Vibro.cs" />
+     <Compile Include="Assets\Core\SceneLoaderCore\Scripts\GUI\GoToScene.cs" />
+     <Compile Include="Assets\Bazier\Data\ICurve.cs" />
+     <Compile Include="Assets\Scripts\UI\UIProgresBarController.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackCameraShake.cs" />
+     <Compile Include="Assets\Prototype\AudioCore\Example\Scripts\TestAudio.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacks\Shakers\MMCameraZoom.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Scripts\CustomPeople.cs" />
+     <Compile Include="Assets\Others\LowPolyPlanes\Source files\Script\PropellerAnimation.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\MMControls\MMTouchAxis.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\GUI\SelectionBase.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Scripts\Wander Script\People_AIStats.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_LightFlicker.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Attributes\InformationAttribute.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Curves\MMTween.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Curves\Demo\Plotter\MMPlotterAxis.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\MMExtensions\MMTransformExtensions.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_AutoDestructShuriken.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Scripts\PolyMorpher.cs" />
+     <Compile Include="Assets\Scripts\Emoji\EmojiController.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\MMHelpers\MMFade.cs" />
+     <Compile Include="Assets\Bazier\Data\Direction.cs" />
+     <Compile Include="Assets\Scripts\UI\Finishline.cs" />
+     <Compile Include="Assets\LowPolyVegetationPack\Scripts\LoadScene.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Attributes\ReadOnlyWhenPlayingAttribute.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Attributes\BackgroundColorAttribute.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\polyperfect\Common\Wander Script\AIState.cs" />
+     <Compile Include="Assets\Game\LevelManager.cs" />
+     <Compile Include="Assets\Scripts\UI\UIBttnContinue.cs" />
+     <Compile Include="Assets\Thirdparty\CrystalFramework\Utility\SafeArea.cs" />
+     <Compile Include="Assets\Scripts\UI\FlyScoreController.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Automation\MMCountdown.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Attributes\ExecutionOrderAttribute.cs" />
+     <Compile Include="Assets\FarlandSkies\Demo\Scripts\Skybox\SkyboxChanger.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Scripts\DemoScripts\ColorPicker.cs" />
+     <Compile Include="Assets\Bazier\Data\Curve3Last.cs" />
+     <Compile Include="Assets\Core\Extension\SceneAttribute\SceneAttribute.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\GUI\MMPSBToUIConverter.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Scripts\Character Viewer\EditorExtensions.cs" />
+     <Compile Include="Assets\Scripts\UI\ResultController.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\MMExtensions\MMRectExtensions.cs" />
+     <Compile Include="Assets\Scripts\UI\ParticlesController.cs" />
+     <Compile Include="Assets\Prototype\AudioCore\Scripts\AudioSourceManagement.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Scripts\CharacterGenerator\CharacterGeneratorSettings.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\AI\AIState.cs" />
+     <Compile Include="Assets\Scripts\Road.cs" />
+     <Compile Include="Assets\Prototype\AudioCore\Scripts\TweensManagement.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\polyperfect\Common\Common_PlaySound.cs" />
+     <Compile Include="Assets\Scripts\Helpers\ButtonClickSound.cs" />
+     <Compile Include="Assets\Scripts\Likes\LikesController.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\MMHelpers\MMGUI.cs" />
+     <Compile Include="Assets\Scripts\RoadPoint.cs" />
+     <Compile Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Scripts\IK\PolyIk.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackParticles.cs" />
+     <Compile Include="Assets\Scripts\Fly\Trailcontroller.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacks\Core\ObjectPool\MMMiniObjectPooler.cs" />
+     <Compile Include="Assets\Prototype\AudioCore\Example\Scripts\BttnClick.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Camera\MMPostProcessingMovableFilter.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\Achievements\Scripts\SerializedMMAchievementManager.cs" />
+     <Compile Include="Assets\Scripts\Fly\FlightPlayerController.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\MMExtensions\MMVector2Extensions.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacks\Shakers\MMFlash.cs" />
+     <Compile Include="Assets\Thirdparty\MMFeedbacks\MMTools\MMControls\MMTouchControls.cs" />
+     <Folder Include="Assets" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Animations\In Place\Zombie" />
+     <Folder Include="Assets\Others\LowPolyPlanes\Prefabs" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Models\Meshes\Scene" />
+     <None Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Readme.txt" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models\CivilMale\BeardPack" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\Demos\TestScene" />
+     <Folder Include="Assets\Prefabs\FX" />
+     <Folder Include="Assets\Hovl Studio\AAA Projectiles Vol 1\Prefabs" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacks" />
+     <Folder Include="Assets\Core\SceneLoaderCore\Scripts" />
+     <Folder Include="Assets\Others\NewLowPolyPeople" />
+     <Folder Include="Assets\Sprites\UI" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\Baseball Bats\Assets" />
+     <Folder Include="Assets\Thirdparty\Nature\LowPoly Nature Pack\Prefabs\Terrain" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Scripts" />
+     <Folder Include="Assets\Prefabs\Trash\UI" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\Baseball Bats\Documentation" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\CFX3 Prefabs\Magic Dark" />
+     <Folder Include="Assets\Others\Demigiant" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\Fbx" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\Vision" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\MOBILE" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\Achievements\Fonts" />
+     <Folder Include="Assets\FarlandSkies\Demo\Scripts" />
+     <Folder Include="Assets\LowPolyVegetationPack\Prefabs\Bonus" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Textures\Environment" />
+     <None Include="Assets\Spine\version.txt" />
+     <Folder Include="Assets\Others\Confetti FX\Demo\Materials" />
+     <Folder Include="Assets\LowPolyVegetationPack\Prefabs\Vegetables" />
+     <Folder Include="Assets\Others\Confetti FX\Prefabs\2D\Fountain" />
+     <None Include="Assets\Hovl Studio\AAA Projectiles Vol 1\Demo scenes\Readme.txt" />
+     <Folder Include="Assets\LowPolyPlanes\Source files\Model" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Particles" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\SHARED_TEXTURES" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacks\Shakers" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\AI" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\ReorderableList\Attributes" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\MMControls\Sprites" />
+     <Folder Include="Assets\TextMesh Pro\Sprites" />
+     <Folder Include="Assets\LowPolyVegetationPack\Models\DeadTrees" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\CFX4 Prefabs\Electric" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Scripts\AtlasGenerator" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Material" />
+     <Folder Include="Assets\LowPolyVegetationPack\Models\DeadPalm" />
+     <Folder Include="Assets\Prototype\AudioCore" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models\CivilFemale\HairPack\LOD2" />
+     <Folder Include="Assets\Customizable Skybox" />
+     <Folder Include="Assets\Thirdparty\Nature\LowPoly Nature Pack" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\PBR\PBR_Prefab\Signboard" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\Achievements" />
+     <Folder Include="Assets\Others\LowPolyPlanes\Source files" />
+     <Folder Include="Assets\Prefabs\Plane\Clown" />
+     <Folder Include="Assets\Samples\Polybrush" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- NavMesh" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\Demos\Sounds" />
+     <None Include="Assets\Thirdparty\MMFeedbacks\MMTools\Shaders\ZTestAlways.shader" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models\CivilMale\HairPack" />
+     <Folder Include="Assets\Sprites" />
+     <Folder Include="Assets\Others" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\MOBILE\Mobile_Prefab\Wood" />
+     <Folder Include="Assets\FXIFIED\common\Shaders" />
+     <Folder Include="Assets\TextMesh Pro\Resources\Sprite Assets" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Materials\Colors\Emission" />
+     <Folder Include="Assets\LowPolyVegetationPack\Models\Shrub" />
+     <Folder Include="Assets\Core\SceneLoaderCore\Example" />
+     <None Include="Assets\Others\Demigiant\DOTween\DOTween43.xml" />
+     <Folder Include="Assets\Shaders" />
+     <Folder Include="Assets\Epic Toon FX\Prefabs\Combat\Flamethrower\Cartoon" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\CFX Prefabs\Electric" />
+     <Folder Include="Assets\Scripts\Settings" />
+     <Folder Include="Assets\Kenney Assets\Castle Kit" />
+     <Folder Include="Assets\Hovl Studio\AAA Projectiles Vol 1" />
+     <Folder Include="Assets\Epic Toon FX\Materials\Glows" />
+     <Folder Include="Assets\FarlandSkies\Skyboxes" />
+     <Folder Include="Assets\Prototype\VibrationCore\Example\Scenes" />
+     <Folder Include="Assets\Core\Screenshot" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\Tilemaps" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Models\Rigs" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\CFX3 Prefabs\Environment" />
+     <None Include="Assets\Imphenzia\GradientSky\ReadMe - GradientSky.txt" />
+     <Folder Include="Assets\Scenes" />
+     <Folder Include="Assets\Prefabs\Plane" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Sprites\FemaleOutfitIcons" />
+     <Folder Include="Assets\Others\Projector" />
+     <Folder Include="Assets\Prefabs\Roads\Obstacles" />
+     <Folder Include="Assets\LowPolyVegetationPack\Models\Vine" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Scripts" />
+     <Folder Include="Assets\LowPolyVegetationPack\Models\Leafs" />
+     <Folder Include="Assets\LowPolyVegetationPack\Prefabs" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Materials" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\MOBILE\Mobile_Textures" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\Scripts" />
+     <Folder Include="Assets\Animations\Backpack\Animation" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\CFX4 Prefabs\Misc" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\NiceVibrations\Common\Scripts" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- NavMesh\People" />
+     <Folder Include="Assets\Prefabs\Emoji" />
+     <Folder Include="Assets\Animations\Backpack" />
+     <Folder Include="Assets\Others\Confetti FX\Demo" />
+     <Folder Include="Assets\LowPolyVegetationPack\Models\GrassPlane" />
+     <None Include="Assets\Hovl Studio\AAA Projectiles Vol 1\Prefabs\Readme.txt" />
+     <None Include="Assets\Thirdparty\MMFeedbacks\MMTools\ReorderableList\reorderable-list-licence.txt" />
+     <Folder Include="Assets\FarlandSkies\Skyboxes\CloudyCrown_01_Midday" />
+     <None Include="Assets\JMO Assets\Cartoon FX\CartoonFX Free.txt" />
+     <Folder Include="Assets\Core" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\PBR\PBR_Prefab\Crate" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect" />
+     <Folder Include="Assets\LowPolyVegetationPack\Models\Bonus" />
+     <Folder Include="Assets\Epic Toon FX\Materials" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Scripts\Wander Script" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\Materials\Light" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacksForThirdParty\MMTools" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\MMControls" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\MOBILE\Mobile_Materials\Pallet" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Scripts\DemoScripts" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\MOBILE\Mobile_Textures\Crate" />
+     <Folder Include="Assets\FXIFIED\Stylized VFX Free Pack\Scenes" />
+     <Folder Include="Assets\Prototype\AudioCore\Example\Scenes" />
+     <Folder Include="Assets\Game" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\CFX2 Prefabs\Electric" />
+     <Folder Include="Assets\Thirdparty\CrystalFramework\Utility\Demos" />
+     <None Include="Assets\Shaders\Skybox Shaders\RGBM Cubed Skybox.shader" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Textures" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks" />
+     <Folder Include="Assets\LowPolyVegetationPack\Models\DesertTrees" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Animations\Common_Animations" />
+     <Folder Include="Assets\LowPolyVegetationPack\Prefabs\Branch" />
+     <Folder Include="Assets\Core\RateUs" />
+     <Folder Include="Assets\SimpleNaturePack\Models" />
+     <Folder Include="Assets\Core\SceneLoaderCore\Scripts\Helpers" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\PBR\Textures\Recyclebin" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Scripts\IK" />
+     <Folder Include="Assets\Epic Toon FX\Prefabs" />
+     <Folder Include="Assets\Hovl Studio\AAA Projectiles Vol 1\Models" />
+     <Folder Include="Assets\Customizable Skybox\Stylized Sky" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\MOBILE\Mobile_Materials\Wood" />
+     <Folder Include="Assets\Epic Toon FX" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\FPS" />
+     <Folder Include="Assets\Core\SceneLoaderCore\Scripts\GUI" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\Achievements\Resources" />
+     <Folder Include="Assets\LowPolyVegetationPack\Textures" />
+     <None Include="Assets\Others\Demigiant\DOTween\DOTween46.xml" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\StateMachine" />
+     <Folder Include="Assets\Imphenzia\GradientSky\Scripts\Common" />
+     <Folder Include="Assets\Animations\money_coin\Coin_particle" />
+     <Folder Include="Assets\TextMesh Pro\Resources\Fonts &amp; Materials" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models\CivilFemale\HairPack\LOD1" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\NiceVibrations" />
+     <Folder Include="Assets\FXIFIED\Stylized VFX Free Pack\Prefabs" />
+     <Folder Include="Assets\Resources\GameAnalytics" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\GUI" />
+     <Folder Include="Assets\Polybrush Data\Brush Settings" />
+     <Folder Include="Assets\Core\Debugger" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\CFX3 Prefabs" />
+     <Folder Include="Assets\Prefabs\World" />
+     <Folder Include="Assets\LowPolyVegetationPack\Prefabs\Cactus" />
+     <Folder Include="Assets\LowPolyVegetationPack\Prefabs\Stump" />
+     <Folder Include="Assets\LowPolyVegetationPack\Models\Bambuk" />
+     <None Include="Assets\Animations\money_coin\Coin animation\coin_rotate.atlas.txt" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\VFX\MMBoilingLine" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models\CivilFemale\SpecialOutfits\LOD2" />
+     <Folder Include="Assets\Others\Confetti FX\Prefabs\3D\DirectionalExplosion" />
+     <Folder Include="Assets\Customizable Skybox\Model" />
+     <Folder Include="Assets\SimpleNaturePack" />
+     <Folder Include="Assets\Core\Extension" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacksForThirdParty\NiceVibrations\Feedbacks" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\Demos\Camera" />
+     <Folder Include="Assets\FXIFIED\Stylized VFX Free Pack\Resources\Materials" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\CFX4 Prefabs\Magic" />
+     <None Include="Assets\Others\Demigiant\DemiLib\DemiLib.xml" />
+     <Folder Include="Assets\Prefabs\Plane\Parts" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\Curves\Demo" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\VFX\BloomDirt" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\CFX Prefabs" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\Audio\AudioAnalyzer" />
+     <Folder Include="Assets\Hovl Studio\AAA Projectiles Vol 1\Materials" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models\CivilMale\SpecialOutfits\LOD2" />
+     <Folder Include="Assets\Scenes\RunScene" />
+     <None Include="Assets\Imphenzia\GradientSky\Shaders\VertexColorCamera.shader" />
+     <Folder Include="Assets\LowPolyVegetationPack\Models\Flower3D" />
+     <Folder Include="Assets\Others\Confetti FX\Prefabs\2D\Explosion" />
+     <Folder Include="Assets\Others\Confetti FX\Prefabs\2D" />
+     <Folder Include="Assets\SimpleNaturePack\Prefabs" />
+     <None Include="Assets\Others\Demigiant\readme_DOTweenPro.txt" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\CFX4 Prefabs\Fire" />
+     <Folder Include="Assets\TextMesh Pro\Resources" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\PBR\PBR_Prefab\Wood" />
+     <None Include="Assets\Thirdparty\MMFeedbacks\MMTools\VFX\MMRipple\MMRipple.shader" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\MOBILE\Mobile_Textures\Wood" />
+     <Folder Include="Assets\Core\SceneLoaderCore\Prefabs" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Scripts\CharacterGenerator" />
+     <Folder Include="Assets\FarlandSkies" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\PBR\Textures\Signboard" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\NiceVibrations\Demo\Sprites" />
+     <Folder Include="Assets\Scripts\FX" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\MOBILE\Mobile_Prefab" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\CFX2 Prefabs" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\Materials\Fire" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\GUI\Materials" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\MOBILE\Mobile_Prefab\Recyclebin" />
+     <Folder Include="Assets\Customizable Skybox\Stylized Sky\Shaders" />
+     <Folder Include="Assets\Scripts\Helpers" />
+     <Folder Include="Assets\LowPolyVegetationPack\Prefabs\Shrub" />
+     <Folder Include="Assets\Prefabs\Plane\Elements Plane\Red" />
+     <Folder Include="Assets\Thirdparty\CrystalFramework\Utility" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\CFX3 Prefabs\Light" />
+     <None Include="Assets\Shaders\Skybox Shaders\Horizontal Skybox.shader" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\PBR\PBR_Prefab\Recyclebin" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\CFX Prefabs\Explosions" />
+     <Folder Include="Assets\Scripts" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\PBR\PBR_Materials\Pallet" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\Singletons" />
+     <Folder Include="Assets\Others\LowPolyPlanes\Source files\Script" />
+     <Folder Include="Assets\Resources\Settings" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\Demos\Scripts" />
+     <Folder Include="Assets\LowPolyVegetationPack\Prefabs\Bambuk" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Animations\In Place\Ninja" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\PBR\PBR_Prefab\Cardboardbox" />
+     <Folder Include="Assets\Scripts\Plane" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\MOBILE\Mobile_Prefab\Crate" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\Attributes" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\Demos\Models\Materials" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models\CivilFemale\SpecialOutfits\LOD1" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\Demos\Textures" />
+     <Folder Include="Assets\LowPolyVegetationPack\Prefabs\FirTrees" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\CFX Prefabs\Hits" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Prefabs" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\Audio" />
+     <None Include="Assets\JMO Assets\Cartoon FX Easy Editor\CartoonFX Easy Editor Readme.txt" />
+     <Folder Include="Assets\Imphenzia\GradientSky" />
+     <Folder Include="Assets\Prefabs" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models\CivilMale\LOD2" />
+     <Folder Include="Assets\Prefabs\Planes\Original" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <Folder Include="Assets\Samples" />
+     <Folder Include="Assets\Others\LowPolyPlanes\Prefabs\Premade planes" />
+     <Folder Include="Assets\Resources\Sounds\NonLanguage" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\Curves" />
+     <Folder Include="Assets\Prefabs\Plane\DropParts" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\Events" />
+     <None Include="Assets\Animations\money_coin\Coin animation\coin_rotate.json" />
+     <Folder Include="Assets\Prototype\AudioCore\Scripts" />
+     <Folder Include="Assets\Others\Demigiant\DOTween" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\Materials\Animated" />
+     <Folder Include="Assets\FXIFIED\common\Scripts" />
+     <Folder Include="Assets\LowPolyVegetationPack\Prefabs\DestroyedTree" />
+     <Folder Include="Assets\Kenney Assets\Castle Kit\Models" />
+     <Folder Include="Assets\Core\Preloader\Prefabs" />
+     <Folder Include="Assets\Animations\money_coin" />
+     <Folder Include="Assets\LowPolyVegetationPack\Scripts" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\MOBILE\Mobile_Prefab\Pallet" />
+     <Folder Include="Assets\Others\LowPolyPlanes\Source files\Materials\Purple" />
+     <Folder Include="Assets\Imphenzia" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models\CivilFemale\SpecialOutfits\LOD3" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\MOBILE\Mobile_Prefab\Garbage_Can" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\MOBILE\Mobile_Materials\Signboard" />
+     <None Include="Assets\Thirdparty\MMFeedbacks\MMTools\Shaders\ZTestAlwaysAdditive.shader" />
+     <Folder Include="Assets\Epic Toon FX\Textures" />
+     <None Include="Assets\Thirdparty\MMFeedbacks\MMTools\VFX\MMBoilingLine\MMBoilingLine.shader" />
+     <Folder Include="Assets\TextMesh Pro" />
+     <Folder Include="Assets\LowPolyVegetationPack\Models\Trees" />
+     <Folder Include="Assets\Bazier\Data" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Scripts\3RD Person Character Controller" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Animations\In Place\Locomotion" />
+     <Folder Include="Assets\Others\Confetti FX\Prefabs\3D\Explosion" />
+     <Folder Include="Assets\FarlandSkies\Skyboxes\CloudyCrown_02_Evening" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models\CivilMale\AccessoryPack\LOD2" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\ObjectPool" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\Curves\Demo\Textures" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\MOBILE\Mobile_Prefab\Barrel" />
+     <Folder Include="Assets\Prototype\VibrationCore" />
+     <Folder Include="Assets\FarlandSkies\Skyboxes\CloudyCrown_05_Daybreak\Textures" />
+     <Folder Include="Assets\FarlandSkies\Skyboxes\CloudyCrown_05_Daybreak" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People" />
+     <Folder Include="Assets\Fonts" />
+     <Folder Include="Assets\Epic Toon FX\Materials\Geometric" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\CFX4 Prefabs\Light" />
+     <None Include="Assets\Hovl Studio\AAA Projectiles Vol 1\Shaders\Electricity.shader" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\CFX2 Prefabs\Misc" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\PBR\Textures\Pallet" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models\CivilFemale\LOD2" />
+     <None Include="Assets\Thirdparty\MMFeedbacks\readme.txt" />
+     <Folder Include="Assets\LowPolyVegetationPack\Other" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\NiceVibrations\Demo" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\PBR" />
+     <Folder Include="Assets\FarlandSkies\Skyboxes\CloudyCrown_04_Sunset" />
+     <None Include="Assets\Hovl Studio\AAA Projectiles Vol 1\Shaders\Blend_CenterGlow.shader" />
+     <Folder Include="Assets\Others\Confetti FX\Prefabs\2D\Directional" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Generators" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\PBR\PBR_Materials\Cardboardbox" />
+     <Folder Include="Assets\LowPolyVegetationPack\Prefabs\FlowerPlanes" />
+     <None Include="Assets\Shaders\Skybox Shaders\Horizon With Sun Skybox.shader" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models\CivilFemale\AccessoryPack\LOD1" />
+     <Folder Include="Assets\LowPolyVegetationPack\Prefabs\Wood" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\Demo" />
+     <Folder Include="Assets\Spine" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\PBR\Textures\Barrel" />
+     <Folder Include="Assets\Core\Settings" />
+     <Folder Include="Assets\Core\SceneLoaderCore" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Materials\Colors" />
+     <None Include="Assets\Thirdparty\MMFeedbacks\MMTools\Vision\MMConeOfLight.shader" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models\CivilMale\BeardPack\LOD1" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Common" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models\CivilMale\AccessoryPack\LOD1" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Models\Meshes" />
+     <Folder Include="Assets\Others\Confetti FX\Prefabs\3D" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models\CivilFemale\LOD3" />
+     <Folder Include="Assets\Customizable Skybox\Stylized Sky\Materials" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\Curves\Demo\Materials" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\NiceVibrations\Demo\Prefabs" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\Curves\Demo\Camera" />
+     <None Include="Assets\Others\Projector\AdditiveTint2.shader" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Sprites\MaleOutfitIcons" />
+     <Folder Include="Assets\LowPolyVegetationPack\Models\Fruits" />
+     <Folder Include="Assets\Scripts\UI" />
+     <Folder Include="Assets\Prefabs\Planes" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\Demo\Assets" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\Materials\Stretched" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\Materials\Blood" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\Demos\Materials" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\PBR\PBR_Materials" />
+     <Folder Include="Assets\Resources\Sounds\MultiLanguage\English" />
+     <Folder Include="Assets\FXIFIED\Stylized VFX Free Pack\Scenes\Profiles" />
+     <Folder Include="Assets\Core\SceneLoaderCore\Example\Scenes" />
+     <None Include="Assets\Thirdparty\MMFeedbacks\NiceVibrations\Demo\Fonts\Lato\OFL.txt" />
+     <Folder Include="Assets\Core\Settings\Resources" />
+     <Folder Include="Assets\FXIFIED\Stylized VFX Free Pack\Prefabs\Models" />
+     <Folder Include="Assets\Resources\Settings\Planes" />
+     <Folder Include="Assets\FXIFIED\Stylized VFX Free Pack\Resources" />
+     <None Include="Assets\Thirdparty\MMFeedbacks\license.txt" />
+     <Folder Include="Assets\Prefabs\Trash" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models\CivilFemale\HairPack" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\Materials\Misc" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models\CivilFemale\AccessoryPack\LOD3" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+     <Folder Include="Assets\Epic Toon FX\Prefabs\Combat" />
+     <Folder Include="Assets\Shaders\Skybox Shaders" />
+     <Folder Include="Assets\Customizable Skybox\Model\Materials" />
+     <Folder Include="Assets\FXIFIED\common" />
+     <None Include="Assets\Shaders\S_Skybox.shader" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\MOBILE\Mobile_Textures\Pallet" />
+     <Folder Include="Assets\Others\Confetti FX\Materials\3D Materials" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\Shaders" />
+     <None Include="Assets\Thirdparty\MMFeedbacks\NiceVibrations\readme.txt" />
+     <Folder Include="Assets\LowPolyPlanes" />
+     <Folder Include="Assets\FarlandSkies\Demo\Scripts\Skybox" />
+     <None Include="Assets\Thirdparty\MMFeedbacks\NiceVibrations\Common\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\PBR\Textures\Garbage_Can" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\CFX3 Prefabs\Magic Misc" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <Folder Include="Assets\LowPolyVegetationPack\Prefabs\Trees" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\MOBILE\Mobile_Materials\Barrel" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Common\Wander Script\Resources" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Animations\In Place\Wizard" />
+     <Folder Include="Assets\Others\LowPolyPlanes\Source files\Materials" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+     <Folder Include="Assets\Polybrush Data" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\Camera" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models\CivilFemale\LOD1" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Animations\In Place\Pirate" />
+     <Folder Include="Assets\LowPolyVegetationPack\Prefabs\Mushroom" />
+     <Folder Include="Assets\Prototype\VibrationCore\Scripts" />
+     <Folder Include="Assets\Others\LowPolyPlanes\Source files\Materials\Green" />
+     <Folder Include="Assets\LowPolyVegetationPack\Prefabs\DesertTrees" />
+     <Folder Include="Assets\Thirdparty\Nature\LowPoly Nature Pack\Meshes" />
+     <Folder Include="Assets\FarlandSkies\Demo\Materials" />
+     <Folder Include="Assets\LowPolyVegetationPack\Prefabs\Vine" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacksForThirdParty\NiceVibrations" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\Automation\Gyroscope" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\PBR\PBR_Prefab" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\Automation\PathMovement" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\Shaders" />
+     <Folder Include="Assets\FXIFIED\Stylized VFX Free Pack\Resources\Textures" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Animations\In Place\Boxer" />
+     <Folder Include="Assets\Others\Confetti FX\Materials" />
+     <Folder Include="Assets\LowPolyVegetationPack\Prefabs\Fruits" />
+     <Folder Include="Assets\Core\Extension\SceneAttribute" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\Materials\Texts" />
+     <Folder Include="Assets\Core\Settings\Scripts" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\CFX2 Prefabs\Skull &amp; Ghosts Effects" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models\CivilMale\HairPack\LOD1" />
+     <Folder Include="Assets\FXIFIED\Stylized VFX Free Pack" />
+     <Folder Include="Assets\Others\LowPolyPlanes\Source files\Textures\Purple" />
+     <None Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Material\BodyColor.shader" />
+     <None Include="Assets\Spine\package.json" />
+     <Folder Include="Assets\Bazier" />
+     <Folder Include="Assets\Resources\Sounds\MultiLanguage\Russian" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Models" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\NiceVibrations\Common" />
+     <Folder Include="Assets\Prefabs\Plane\DropParts\New" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models\CivilFemale\SpecialOutfits" />
+     <Folder Include="Assets\Animations" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Prefabs\Male\Presets" />
+     <Folder Include="Assets\Polybrush Data\Color Palette" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Scripts\Bone Mapping" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+     <Folder Include="Assets\Others\Confetti FX" />
+     <Folder Include="Assets\FarlandSkies\Demo\Textures" />
+     <Folder Include="Assets\FarlandSkies\Demo\Scripts\Player" />
+     <Folder Include="Assets\Core\Debugger\Scripts" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models\CivilFemale" />
+     <Folder Include="Assets\Samples\Polybrush\1.0.2\Shader Examples (Standard)\Shader" />
+     <Folder Include="Assets\Sprites\Materials" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\Baseball Bats\Assets\Prefabs" />
+     <None Include="Assets\Others\Projector\AdditiveTint3.shader" />
+     <Folder Include="Assets\Others\LowPolyPlanes\Source files\Materials\Blue" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\SaveLoad" />
+     <Folder Include="Assets\Others\Confetti FX\Prefabs" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\PBR\PBR_Prefab\Barrel" />
+     <Folder Include="Assets\Core\RateUs\Prefabs" />
+     <Folder Include="Assets\TextMesh Pro\Resources\Shaders" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Animations\In Place\Deaths" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\Fbx\Materials" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\CFX3 Prefabs\Misc" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\SceneLoading\Sprites" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\Mesh" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\PBR\PBR_Materials\Crate" />
+     <Folder Include="Assets\Sprites\UI\New UI" />
+     <Folder Include="Assets\Hovl Studio\AAA Projectiles Vol 1\Scripts" />
+     <Folder Include="Assets\Hovl Studio\AAA Projectiles Vol 1\Demo scenes" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\Demos\Models\Background" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models\CivilMale\AccessoryPack\LOD3" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\PBR\Textures\Cardboardbox" />
+     <Folder Include="Assets\Prefabs\UI" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\Achievements\Prefabs" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\Demo\UI Canvas" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\MOBILE\Mobile_Materials\Crate" />
+     <Folder Include="Assets\_TerrainAutoUpgrade" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\PBR\Textures\Crate" />
+     <Folder Include="Assets\Resources\Sounds\MultiLanguage" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\CFX Prefabs\Misc" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\PBR\PBR_Prefab\Pallet" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\PBR\PBR_Prefab\Garbage_Can" />
+     <None Include="Assets\Thirdparty\MMFeedbacks\NiceVibrations\license.txt" />
+     <Folder Include="Assets\Thirdparty\Nature\LowPoly Nature Pack\Meshes\Terrain" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Animations" />
+     <Folder Include="Assets\LowPolyPlanes\Prefabs" />
+     <Folder Include="Assets\Others\LowPolyPlanes\Source files\Textures\Green" />
+     <Folder Include="Assets\Others\Confetti FX\Prefabs\3D\Fountain" />
+     <Folder Include="Assets\Others\LowPolyPlanes\Source files\Materials\Red" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\CFX4 Prefabs" />
+     <Folder Include="Assets\LowPolyVegetationPack\Models\Grass3D" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2" />
+     <Folder Include="Assets\Core\SceneLoaderCore\Scripts\Fade" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models\CivilMale\BeardPack\LOD3" />
+     <Folder Include="Assets\Others\Demigiant\DOTweenPro Examples\Examples Assets" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\Icons" />
+     <Folder Include="Assets\Others\LowPolyPlanes\Source files\Textures\Blue" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\ObjectBounds" />
+     <Folder Include="Assets\Resources" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\MOBILE\Mobile_Textures\Recyclebin" />
+     <Folder Include="Assets\Prefabs\Roads" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\PBR\PBR_Materials\Garbage_Can" />
+     <Folder Include="Assets\TextMesh Pro\Resources\Style Sheets" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- UI" />
+     <Folder Include="Assets\Thirdparty\Nature" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacksForThirdParty" />
+     <Folder Include="Assets\Scripts\Settings\Base" />
+     <Folder Include="Assets\Others\Demigiant\DemiLib" />
+     <Folder Include="Assets\FarlandSkies\Skyboxes\CloudyCrown_03_Midnight\Textures" />
+     <Folder Include="Assets\Core\Preloader" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models\CivilMale\LOD3" />
+     <Folder Include="Assets\TextMesh Pro\Fonts" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Terrain" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\Baseball Bats\Demo" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX Easy Editor" />
+     <Folder Include="Assets\Prototype\AudioCore\Example\Scripts" />
+     <None Include="Assets\Imphenzia\GradientSky\Shaders\VertexColorObject.shader" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\NiceVibrations\Common\Plugins\Android" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\Demos\Models\Dude\Materials" />
+     <Folder Include="Assets\Scripts\Fly" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\Baseball Bats\Assets\Models" />
+     <None Include="Assets\LowPolyVegetationPack\Readme.txt" />
+     <Folder Include="Assets\Core\SceneLoaderCore\Scripts\Logo" />
+     <Folder Include="Assets\Epic Toon FX\Materials\Misc" />
+     <None Include="Assets\Others\Demigiant\DOTweenPro\readme.txt" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\Automation\PropertyController" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools" />
+     <Folder Include="Assets\Material\Likes" />
+     <None Include="Assets\Shaders\BumpedSpecularColored.shader" />
+     <Folder Include="Assets\LowPolyVegetationPack\Models\Wood" />
+     <None Include="Assets\PlayerPrefsEditor\README.txt" />
+     <Folder Include="Assets\FXIFIED\Stylized VFX Free Pack\Resources\font" />
+     <Folder Include="Assets\LowPolyVegetationPack\Models\Branch" />
+     <Folder Include="Assets\LowPolyVegetationPack\Materials" />
+     <Folder Include="Assets\Others\LowPolyPlanes" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\PBR\PBR_Materials\Recyclebin" />
+     <Folder Include="Assets\Customizable Skybox\Materials" />
+     <Folder Include="Assets\Polybrush Data\Prefab Palette" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models\CivilMale\LOD1" />
+     <Folder Include="Assets\Scripts\Slingshot" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\NiceVibrations\Demo\Fonts\Lato" />
+     <Folder Include="Assets\LowPolyVegetationPack\Models\Stump" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\Demos\Models\Background\Background.fbm" />
+     <Folder Include="Assets\FXIFIED" />
+     <None Include="Assets\Shaders\Skybox Shaders\Gradient Skybox.shader" />
+     <Folder Include="Assets\Thirdparty" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\MOBILE\Mobile_Materials\Garbage_Can" />
+     <None Include="Assets\Hovl Studio\AAA Projectiles Vol 1\Shaders\AddTrail.shader" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\Materials" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\PBR\PBR_Materials\Barrel" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks" />
+     <Folder Include="Assets\Epic Toon FX\Materials\Clouds" />
+     <Folder Include="Assets\Scripts\Obstacles" />
+     <None Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- UI\TextShader.shader" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Animations\In Place\Attack" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\Baseball Bats" />
+     <Folder Include="Assets\Imphenzia\GradientSky\Scripts" />
+     <None Include="Assets\Others\Confetti FX\Readme.txt" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\Baseball Bats\Assets\Materials" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Materials\Simple Water" />
+     <Folder Include="Assets\Scripts\Camera" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\MOBILE\Mobile_Materials\Recyclebin" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\NiceVibrations\Demo\Scripts" />
+     <Folder Include="Assets\Imphenzia\GradientSky\Shaders" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models\CivilFemale\AccessoryPack\LOD2" />
+     <Folder Include="Assets\Core\RateUs\Example" />
+     <Folder Include="Assets\Prototype\AudioCore\Prefabs" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models\CivilFemale\AccessoryPack" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacks\Core" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Animations\Scenes" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\PBR\PBR_Materials\Wood" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\Demos\Models\Background\Materials" />
+     <None Include="Assets\Samples\Polybrush\1.0.2\Shader Examples (Standard)\Shader\StandardVertexColor.shader" />
+     <Folder Include="Assets\Scripts\Circle" />
+     <None Include="Assets\Customizable Skybox\Stylized Sky\Shaders\Stylized Sky.shader" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\MOBILE\Mobile_Textures\Signboard" />
+     <Folder Include="Assets\LowPolyVegetationPack\Models\DestroyedPalm" />
+     <None Include="Assets\Others\NewLowPolyPeople\Baseball Bats\Documentation\Documentation.txt" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\MOBILE\Mobile_Textures\Garbage_Can" />
+     <None Include="Assets\Thirdparty\CrystalFramework\Utility\Demos\SafeAreaDemo.txt" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\Automation" />
+     <Folder Include="Assets\Others\Confetti FX\Models\Materials" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Prefabs\Female" />
+     <Folder Include="Assets\LowPolyVegetationPack\Models\FirTrees" />
+     <Folder Include="Assets\FXIFIED\Stylized VFX Free Pack\Resources\Meshes" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\Demos\Models" />
+     <Folder Include="Assets\Material" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\MOBILE\Mobile_Materials" />
+     <Folder Include="Assets\Customizable Skybox\Scenes" />
+     <Folder Include="Assets\Thirdparty\Nature\LowPoly Nature Pack\Prefabs" />
+     <None Include="Assets\Others\Projector\Tattoo.shader" />
+     <Folder Include="Assets\FXIFIED\common\Extras" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Materials\Colors\Transparent" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models\CivilMale\SpecialOutfits\LOD1" />
+     <Folder Include="Assets\Samples\Polybrush\1.0.2\Shader Examples (Universal RP)" />
+     <Folder Include="Assets\Icons" />
+     <Folder Include="Assets\Others\Confetti FX\Textures" />
+     <Folder Include="Assets\Prefabs\Trails" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\Demos\Camera\Gizmos" />
+     <Folder Include="Assets\Prefabs\Trash\Props" />
+     <Folder Include="Assets\Kenney Assets\Castle Kit\Models\Materials" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\NiceVibrations\Common\Plugins\iOS" />
+     <None Include="Assets\FXIFIED\common\Shaders\RimLight.shader" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFXM_MobileParticleAdd_Alpha8.shader" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\Animation" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <Folder Include="Assets\FarlandSkies\Demo" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\Demos" />
+     <Folder Include="Assets\Scripts\Emoji" />
+     <Folder Include="Assets\Samples\Polybrush\1.0.2\Shader Examples (HDRP)" />
+     <Folder Include="Assets\LowPolyVegetationPack\Demo" />
+     <Folder Include="Assets\FarlandSkies\Skyboxes\CloudyCrown_02_Evening\Textures" />
+     <Folder Include="Assets\Material\Road" />
+     <None Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Materials\Simple Water\SimpleWater.shader" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Animations\In Place" />
+     <Folder Include="Assets\Others\LowPolyPlanes\Source files\Textures" />
+     <None Include="Assets\Shaders\VertexLitColored.shader" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\CFX4 Prefabs\Water" />
+     <Folder Include="Assets\Scripts\Likes" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\Curves\Demo\Prefabs" />
+     <Folder Include="Assets\Prefabs\Plane\Elements Plane" />
+     <Folder Include="Assets\Samples\Polybrush\1.0.2" />
+     <Folder Include="Assets\Samples\Polybrush\1.0.2\Shader Examples (Universal RP)\Shader" />
+     <Folder Include="Assets\JMO Assets" />
+     <Folder Include="Assets\Others\LowPolyPlanes\Source files\Mesh" />
+     <None Include="Assets\Others\Demigiant\DOTween\readme.txt" />
+     <Folder Include="Assets\Prototype" />
+     <Folder Include="Assets\Material\Parts" />
+     <Folder Include="Assets\LowPolyVegetationPack\Prefabs\Grass3D" />
+     <Folder Include="Assets\Material\Skybox" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\SceneLoading" />
+     <Folder Include="Assets\Scripts\Screenshot" />
+     <Folder Include="Assets\LowPolyVegetationPack\Prefabs\DeadTrees" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Prefabs" />
+     <Folder Include="Assets\SimpleNaturePack\Textures" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Models\Meshes\Items" />
+     <Folder Include="Assets\LowPolyVegetationPack\Models\FlowerPlanes" />
+     <Folder Include="Assets\Hovl Studio\AAA Projectiles Vol 1\Prefabs\Projectiles(Particle collision)" />
+     <Folder Include="Assets\Prefabs\Plane\Elements Plane\Don&apos;t remove" />
+     <Folder Include="Assets\Resources\Sounds" />
+     <Folder Include="Assets\Others\Confetti FX\Models" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Stats" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Terrain\_TerrainAutoUpgrade" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\CFX3 Prefabs\Fire" />
+     <Folder Include="Assets\Epic Toon FX\Prefabs\Combat\Flamethrower" />
+     <Folder Include="Assets\FarlandSkies\Demo\Models" />
+     <Folder Include="Assets\FarlandSkies\Skyboxes\CloudyCrown_01_Midday\Textures" />
+     <None Include="Assets\Others\Projector\Multiply.shader" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\CFX3 Prefabs\Electric" />
+     <Folder Include="Assets\Prototype\VibrationCore\Example" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\MOBILE\Mobile_Textures\Barrel" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\Materials\Symbols" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models\CivilMale\AccessoryPack" />
+     <Folder Include="Assets\Hovl Studio\AAA Projectiles Vol 1\Textures" />
+     <Folder Include="Assets\FarlandSkies\Skyboxes\CloudyCrown_03_Midnight" />
+     <Folder Include="Assets\Hovl Studio\AAA Projectiles Vol 1\Shaders" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\PBR\Textures" />
+     <Folder Include="Assets\Prototype\VibrationCore\Example\Scripts" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Sprites" />
+     <None Include="Assets\Others\Demigiant\DOTween\DOTween50.xml" />
+     <Folder Include="Assets\Core\Preloader\Scripts" />
+     <Folder Include="Assets\Thirdparty\CrystalFramework" />
+     <None Include="Assets\Hovl Studio\AAA Projectiles Vol 1\Shaders\Add_CenterGlow.shader" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\PBR\PBR_Materials\Signboard" />
+     <Folder Include="Assets\Hovl Studio" />
+     <None Include="Assets\Shaders\SliderRamp.shader" />
+     <Folder Include="Assets\PlayerPrefsEditor" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\ReorderableList" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models\CivilMale\HairPack\LOD3" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\CFX2 Prefabs\Water" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\MOBILE\Mobile_Materials\Cardboardbox" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\PBR\Textures\Wood" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\CFX2 Prefabs\Pickup Items" />
+     <Folder Include="Assets\Others\Demigiant\DOTweenPro Examples" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models\CivilMale\SpecialOutfits" />
+     <Folder Include="Assets\LowPolyVegetationPack" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models\CivilMale\BeardPack\LOD2" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models\CivilFemale\HairPack\LOD3" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\GUI\Sprites" />
+     <Folder Include="Assets\Core\RateUs\Scripts" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+     <Folder Include="Assets\Others\LowPolyPlanes\Prefabs\Pieces" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\Baseball Bats\Assets\Textures" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\Demos\Camera\Gizmos\Cinemachine" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\Demos\Models\Dude" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\MOBILE\Mobile_Textures\Cardboardbox" />
+     <Folder Include="Assets\Samples\Polybrush\1.0.2\Shader Examples (HDRP)\Shader" />
+     <Folder Include="Assets\FarlandSkies\Skyboxes\CloudyCrown_04_Sunset\Textures" />
+     <Folder Include="Assets\Hovl Studio\AAA Projectiles Vol 1\Prefabs\Projectiles(transform)" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\NiceVibrations\Common\Plugins" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\Materials\Water" />
+     <Folder Include="Assets\LowPolyVegetationPack\Models\Vegetables" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\CFX2 Prefabs\Debris Hits" />
+     <Folder Include="Assets\LowPolyVegetationPack\Prefabs\Leafs" />
+     <Folder Include="Assets\LowPolyVegetationPack\Models\Mushroom" />
+     <Folder Include="Assets\Scripts\Settings\PlaneSettings" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Scripts\Character Viewer" />
+     <Folder Include="Assets\Animations\money_coin\Coin animation" />
+     <Folder Include="Assets\TextMesh Pro\Documentation" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\CFX2 Prefabs\Blood" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\VFX" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models\CivilMale\HairPack\LOD2" />
+     <Folder Include="Assets\LowPolyVegetationPack\Prefabs\GrassPlane" />
+     <Folder Include="Assets\Game\Sprites" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Common\Wander Script" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\Textures" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\RigidbodyInterface" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\MMExtensions" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Sounds" />
+     <Folder Include="Assets\FXIFIED\Stylized VFX Free Pack\Scenes\Lightmap" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Animator Controllers" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacks\Core\ObjectPool" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\Demos\Prefabs" />
+     <None Include="Assets\Others\Projector\ProjectorAdditiveTint.shader" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Prefabs\Male" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+     <Folder Include="Assets\LowPolyVegetationPack\Prefabs\Flower3D" />
+     <Folder Include="Assets\LowPolyPlanes\Source files" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Animator Controllers\Scenes" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\Automation\BezierLineRenderer" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\Materials\Electric" />
+     <Folder Include="Assets\LowPolyVegetationPack\Prefabs\Palm" />
+     <Folder Include="Assets\LowPolyVegetationPack\Models\Palm" />
+     <Folder Include="Assets\SimpleNaturePack\Materials" />
+     <Folder Include="Assets\Prototype\AudioCore\Example" />
+     <Folder Include="Assets\Animations\Parts" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\MOBILE\Mobile_Prefab\Cardboardbox" />
+     <None Include="Assets\Shaders\AlphaDependingDistance.shader" />
+     <Folder Include="Assets\LowPolyVegetationPack\Models\Cactus" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\Particles" />
+     <Folder Include="Assets\Others\Garbage_Crates_Props\MOBILE\Mobile_Prefab\Signboard" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\NiceVibrations\Demo\Fonts" />
+     <Folder Include="Assets\LowPolyVegetationPack\Models" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- UI\Gizmos" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\Achievements\Sprites" />
+     <Folder Include="Assets\Others\LowPolyPlanes\Source files\Textures\Red" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models\CivilMale" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\MMHelpers" />
+     <Folder Include="Assets\Prefabs\Roads\New Road" />
+     <Folder Include="Assets\Bazier\Base" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks" />
+     <Folder Include="Assets\Animations\Plane" />
+     <Folder Include="Assets\Kenney Assets" />
+     <Folder Include="Assets\Others\Demigiant\DOTweenPro" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\Achievements\Scripts" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Scenes" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Models\CivilMale\SpecialOutfits\LOD3" />
+     <Folder Include="Assets\Samples\Polybrush\1.0.2\Shader Examples (Standard)" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\Curves\Demo\Plotter" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+     <Folder Include="Assets\Thirdparty\MMFeedbacks\MMTools\VFX\MMRipple" />
+     <Folder Include="Assets\SimpleNaturePack\Scenes" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\AdvancedPeoplePack2\Prefabs\Female\Presets" />
+     <None Include="Assets\Samples\Polybrush\1.0.2\Shader Examples (Standard)\Shader\StandardTextureBlend.shader" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\polyperfect\Low Poly Animated People\- Animations\In Place\Idles" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX\CFX2 Prefabs\Explosions" />
+     <Folder Include="Assets\Others\NewLowPolyPeople\Baseball Bats\Assets\Models\Materials" />
+     <Reference Include="UnityEngine">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AIModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ARModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AccessibilityModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AndroidJNIModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AnimationModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AssetBundleModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AudioModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ClothModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ClusterInputModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ClusterRendererModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.CoreModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.CrashReportingModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.DSPGraphModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.DirectorModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.GIModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.GameCenterModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.GridModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.HotReloadModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.IMGUIModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ImageConversionModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.InputModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.InputLegacyModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.JSONSerializeModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.LocalizationModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ParticleSystemModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.PerformanceReportingModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.PhysicsModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.Physics2DModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ProfilerModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.ProfilerModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ScreenCaptureModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SharedInternalsModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SpriteMaskModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SpriteShapeModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.StreamingModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SubstanceModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SubsystemsModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TLSModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TerrainModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TerrainPhysicsModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TextCoreFontEngineModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TextCoreTextEngineModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TextRenderingModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TilemapModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UIModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UIElementsModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UIElementsNativeModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsNativeModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UNETModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UNETModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UmbraModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityAnalyticsModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityConnectModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityCurlModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityTestProtocolModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VFXModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VRModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VehiclesModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VideoModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VirtualTexturingModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.WindModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.XRModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.CoreModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.DeviceSimulatorModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.DiagnosticsModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.GraphViewModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.PackageManagerUIModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.PackageManagerUIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.QuickSearchModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.SceneTemplateModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.TextCoreFontEngineModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.TextCoreTextEngineModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIBuilderModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIElementsModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIElementsSamplesModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIServiceModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIServiceModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UnityConnectModule">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+     </Reference>
+     <Reference Include="DOTween">
+     <HintPath>E:\Git\TokyoTraffic\iOS\un_03\Assets\Others\Demigiant\DOTween\DOTween.dll</HintPath>
+     </Reference>
+     <Reference Include="DOTween46">
+     <HintPath>E:\Git\TokyoTraffic\iOS\un_03\Assets\Others\Demigiant\DOTween\DOTween46.dll</HintPath>
+     </Reference>
+     <Reference Include="DOTween50">
+     <HintPath>E:\Git\TokyoTraffic\iOS\un_03\Assets\Others\Demigiant\DOTween\DOTween50.dll</HintPath>
+     </Reference>
+     <Reference Include="DemiLib">
+     <HintPath>E:\Git\TokyoTraffic\iOS\un_03\Assets\Others\Demigiant\DemiLib\DemiLib.dll</HintPath>
+     </Reference>
+     <Reference Include="DOTweenPro">
+     <HintPath>E:\Git\TokyoTraffic\iOS\un_03\Assets\Others\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
+     </Reference>
+     <Reference Include="DOTween43">
+     <HintPath>E:\Git\TokyoTraffic\iOS\un_03\Assets\Others\Demigiant\DOTween\DOTween43.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.iOS.Extensions.Common">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Android.Types">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Android.Gradle">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
+     </Reference>
+     <Reference Include="netstandard">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
+     </Reference>
+     <Reference Include="Microsoft.Win32.Primitives">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\Microsoft.Win32.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.AppContext">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.AppContext.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Buffers">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Buffers.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.Concurrent">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.NonGeneric">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.Specialized">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.EventBasedAsync">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.Primitives">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.TypeConverter">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Console">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Console.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Data.Common">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Data.Common.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Contracts">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Contracts.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Debug">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Debug.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.FileVersionInfo">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Process">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Process.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.StackTrace">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.StackTrace.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.TextWriterTraceListener">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Tools">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tools.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.TraceSource">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TraceSource.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Tracing">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tracing.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Drawing.Primitives">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Drawing.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Dynamic.Runtime">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Dynamic.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization.Calendars">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization.Extensions">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression.ZipFile">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.DriveInfo">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.Primitives">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.Watcher">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.IsolatedStorage">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.MemoryMappedFiles">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.MemoryMappedFiles.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Pipes">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Pipes.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.UnmanagedMemoryStream">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Expressions">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Parallel">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Parallel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Queryable">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Memory">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Memory.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Http">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Http.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.NameResolution">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NameResolution.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.NetworkInformation">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NetworkInformation.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Ping">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Ping.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Primitives">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Requests">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Requests.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Security">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Security.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Sockets">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Sockets.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebHeaderCollection">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebHeaderCollection.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebSockets.Client">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.Client.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebSockets">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Numerics.Vectors">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Numerics.Vectors.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ObjectModel">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ObjectModel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.DispatchProxy">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.DispatchProxy.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Emit">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Emit.ILGeneration">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.ILGeneration.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Emit.Lightweight">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.Lightweight.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Extensions">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Primitives">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.Reader">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.ResourceManager">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.ResourceManager.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.Writer">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Writer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.CompilerServices.VisualC">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Extensions">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Handles">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Numerics">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Formatters">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Json">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Json.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Primitives">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Xml">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Claims">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Claims.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Algorithms">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Csp">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Csp.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Encoding">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Encoding.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Primitives">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.X509Certificates">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Principal">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Principal.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.SecureString">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.Encoding">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.Encoding.Extensions">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.RegularExpressions">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Overlapped">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks.Extensions">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks.Parallel">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Thread">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.ThreadPool">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.ThreadPool.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Timer">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ValueTuple">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ValueTuple.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.ReaderWriter">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.ReaderWriter.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XDocument">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XmlDocument">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XmlSerializer">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XPath">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XPath.XDocument">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+     </Reference>
+     <Reference Include="mscorlib">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\mscorlib.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.Composition">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Core">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Data">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Data.dll</HintPath>
+     </Reference>
+     <Reference Include="System">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Drawing">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Drawing.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression.FileSystem">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.IO.Compression.FileSystem.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Net.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Numerics">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Numerics.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Runtime.Serialization.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ServiceModel.Web">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ServiceModel.Web.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Transactions">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Transactions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Web">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Web.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Windows">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Windows.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.Linq">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Linq.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.Serialization">
+     <HintPath>E:\Unitys\2021.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VSCode.Editor">
+     <HintPath>E:\Git\TokyoTraffic\iOS\un_03\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Postprocessing.Runtime">
+     <HintPath>E:\Git\TokyoTraffic\iOS\un_03\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+     <HintPath>E:\Git\TokyoTraffic\iOS\un_03\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro.Editor">
+     <HintPath>E:\Git\TokyoTraffic\iOS\un_03\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualStudio.Editor">
+     <HintPath>E:\Git\TokyoTraffic\iOS\un_03\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.ProBuilder.AddOns.Editor">
+     <HintPath>E:\Git\TokyoTraffic\iOS\un_03\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Timeline.Editor">
+     <HintPath>E:\Git\TokyoTraffic\iOS\un_03\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Timeline">
+     <HintPath>E:\Git\TokyoTraffic\iOS\un_03\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro">
+     <HintPath>E:\Git\TokyoTraffic\iOS\un_03\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.ProBuilder">
+     <HintPath>E:\Git\TokyoTraffic\iOS\un_03\Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.ProBuilder.Editor">
+     <HintPath>E:\Git\TokyoTraffic\iOS\un_03\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Postprocessing.Editor">
+     <HintPath>E:\Git\TokyoTraffic\iOS\un_03\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UI">
+     <HintPath>E:\Git\TokyoTraffic\iOS\un_03\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Rider.Editor">
+     <HintPath>E:\Git\TokyoTraffic\iOS\un_03\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.PlasticSCM.Editor">
+     <HintPath>E:\Git\TokyoTraffic\iOS\un_03\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UI">
+     <HintPath>E:\Git\TokyoTraffic\iOS\un_03\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Polybrush.Editor">
+     <HintPath>E:\Git\TokyoTraffic\iOS\un_03\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Polybrush">
+     <HintPath>E:\Git\TokyoTraffic\iOS\un_03\Library\ScriptAssemblies\Unity.Polybrush.dll</HintPath>
+     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{6d471559-c450-680a-9878-00f0650fb393}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="spine-unity.csproj">
+      <Project>{631ac8d6-2a7a-5f44-e715-24d94bdbc2d6}</Project>
+      <Name>spine-unity</Name>
+    </ProjectReference>
+    <ProjectReference Include="spine-unity-editor.csproj">
+      <Project>{a59bcc59-c570-441d-16bb-6d587e559025}</Project>
+      <Name>spine-unity-editor</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
